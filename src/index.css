@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+body > * {
+  font-family: inherit;
+  box-sizing: inherit;  
+  line-height: 1.16;
+}
+button {
+  transition: background-color .3s linear;
+}
+button:focus {outline:0;}

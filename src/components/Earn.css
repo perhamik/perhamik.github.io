@@ -1,0 +1,106 @@
+.earn-menu.open {
+    width: 100%;    
+    justify-content: center;   
+}
+.earn-menu.close {
+    width: 50px;
+    height: 50px;
+}
+.earn-menu.close > .earn-list {
+    display: none;
+}
+.earn-menu {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+    max-width: 100vw;
+    height: 100vh;
+    background-color: #F5F5F7;
+}
+.earn-menu > .toggle-icon {
+    display: block;
+    margin: 16px 16px 8px auto;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    height: 24px;
+    width: 24px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.earn-menu.close > .toggle-icon {
+    background-image: url(./../assets/hamburg.svg);
+}
+.earn-menu.open > .toggle-icon {
+    background-image: url(./../assets/close.svg);
+}
+.earn-menu > .earn-list {
+    margin-bottom: 32px;
+    max-width: 100vw;
+    height: 100%;
+}
+.earn-menu > .earn-list::after {
+    content: '';
+    background-color: #F5F5F7;
+}
+.earn-menu > .earn-list > .earn-item {
+    height: 32px;
+    font-size: 14px;
+}
+.earn-menu > .earn-list >  .earn-item::before {
+    max-width: 100vw;
+}
+.container > .earn-list {
+    display: flex; 
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 376px;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.earn-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    max-width: 240px;
+    margin: 8px auto;     
+    font-size: 20px;
+    cursor: default;
+}
+.earn-item.past {
+    color: rgb(208, 208, 216);
+}
+.earn-item::before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    height: 1px;
+    max-width: 376px;
+    width: 100vw;
+    background-color: #D0D0D8;
+}
+.earn-item::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    min-width: 240px;
+    background-size: contain;
+    background-image: url("data:image/svg+xml, %3Csvg width='240' height='40' viewBox='0 0 240 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.4526 4.63788C15.6376 2.01596 18.8742 0.5 22.2872 0.5H217.713C221.126 0.5 224.362 2.01597 226.547 4.63788L239.349 20L226.547 35.3621C224.362 37.984 221.126 39.5 217.713 39.5H22.2872C18.8742 39.5 15.6376 37.984 13.4526 35.3621L0.650853 20L13.4526 4.63788Z' fill='white' stroke='rgb(208,208,216)' %3E%3C/path%3E%3C/svg%3E");
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image .2s linear;    
+}
+.earn-item.active::after {
+    background-image: url("data:image/svg+xml, %3Csvg width='240' height='40' viewBox='0 0 240 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.4526 4.63788C15.6376 2.01596 18.8742 0.5 22.2872 0.5H217.713C221.126 0.5 224.362 2.01597 226.547 4.63788L239.349 20L226.547 35.3621C224.362 37.984 221.126 39.5 217.713 39.5H22.2872C18.8742 39.5 15.6376 37.984 13.4526 35.3621L0.650853 20L13.4526 4.63788Z' fill='white' stroke='rgb(255,139,55)' %3E%3C/path%3E%3C/svg%3E");
+}
+.earn-item.active::before {
+    background-color: #FF8B37;
+}

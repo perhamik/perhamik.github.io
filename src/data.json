@@ -1,0 +1,152 @@
+{
+    "mainText": {
+        "initTitle": "Who wants to be a millionaire?",
+        "initButton": "Start",
+        "endTitle": "Total score:",
+        "endButton": "Try again"
+    },
+    "earning": {
+        "mark": "$",
+        "divider": ",",
+        "current": 0,
+        "income": [
+            500,
+            1000,
+            2000,
+            4000,
+            8000,
+            16000,
+            32000,
+            64000,
+            125000,
+            250000,
+            500000,
+            1000000
+        ]
+    },
+    "questionsNumerator": [
+        "A", "B", "C", "D"
+    ],
+    "questions": [
+        {
+            "title": "What does the 'MP' stand for in MP3?",
+            "answers": [
+                "Moving Picture",
+                "Music Player",
+                "Multi Pass",
+                "Micro Point"
+            ],
+            "correct": 0
+        },
+        {
+            "title": "When Gmail first launched, how much storage did it provide for your email?",
+            "answers": [
+                "Unlimited",
+                "512 MB",
+                "1 GB",
+                "5 GB"
+            ],
+            "correct": 2
+        },
+        {
+            "title": "The series of the Intel HD graphics generation succeeding that of the 5000 and 6000 series (Broadwell) is called:",
+            "answers": [
+                "HD Graphics 500",
+                "HD Graphics 700",
+                "HD Graphics 600",
+                "HD Graphics 7000"
+            ],
+            "correct": 0
+        },
+        {
+            "title": "Which computer language would you associate Django framework with?",
+            "answers": [
+                "Java",
+                "C#",
+                "C++",
+                "Python"
+            ],
+            "correct": 3
+        },
+        {
+            "title": "What does CPU stand for?",
+            "answers": [
+                "Central Process Unit",
+                "Central Processing Unit",
+                "Computer Personal Unit",
+                "Central Processor Unit"
+            ],
+            "correct": 1
+        },
+        {
+            "title": "What does GHz stand for?",
+            "answers": [
+                "Gigahotz",
+                "Gigahetz",
+                "Gigahertz",
+                "Gigahatz"
+            ],
+            "correct": 2
+        },
+        {
+            "title": "What is the most preferred image format used for logos in the Wikimedia database?",
+            "answers": [
+                ".png",
+                ".svg",
+                ".jpeg",
+                ".gif"
+            ],
+            "correct": 1
+        },
+        {
+            "title": "HTML is what type of language?",
+            "answers": [
+                "Macro Language",
+                "Markup Language",
+                "Programming Language",
+                "Scripting Language"
+            ],
+            "correct": 1
+        },
+        {
+            "title": "What does LTS stand for in the software market?",
+            "answers": [
+                "Long Term Support",
+                "Long Taco Service",
+                "Ludicrous Transfer Speed",
+                "Ludicrous Turbo Speed"
+            ],
+            "correct": 0
+        },
+        {
+            "title": "In web design, what does CSS stand for?",
+            "answers": [
+                "Counter Strike: Source",
+                "Cascading Style Sheet",
+                "Corrective Style Sheet",
+                "Computer Style Sheet"
+            ],
+            "correct": 1
+        },
+        {
+            "title": "In computing, what does MIDI stand for?",
+            "answers": [
+                "Musical Interface of Digital Instruments",
+                "Musical Instrument Data Interface",
+                "Musical Instrument Digital Interface",
+                "Modular Interface of Digital Instruments"
+            ],
+            "correct": 2
+        },
+        {
+            "title": "How long is an IPv6 address?",
+            "answers": [
+                "32 bits",
+                "64 bits",
+                "128 bits",
+                "128 bytes"
+            ],
+            "correct": 2
+        }
+    ]
+}
